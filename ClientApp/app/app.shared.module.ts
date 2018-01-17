@@ -26,9 +26,7 @@ import { InterviewComponent } from './components/interview/interview.component';
         FormsModule,
         RouterModule.forRoot([
             { path: '', redirectTo: 'home', pathMatch: 'full' },
-            { path: 'home', component: HomeComponent },
-            { path: 'counter', component: CounterComponent },
-            { path: 'fetch-data', component: FetchDataComponent },
+            { path: 'home', component: InterviewComponent },
             { path: '**', redirectTo: 'home' }
         ])
     ]
